@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.picker {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+    flex-wrap: wrap;
+}
+
+.picker > div {
+    background-color: lightgray;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
